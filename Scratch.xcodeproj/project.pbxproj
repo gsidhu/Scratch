@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5212E1CC2A99D40700AAAF78 /* ScratchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5212E1CB2A99D40700AAAF78 /* ScratchApp.swift */; };
-		5212E1CE2A99D40700AAAF78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5212E1CD2A99D40700AAAF78 /* ContentView.swift */; };
 		5212E1D02A99D40800AAAF78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5212E1CF2A99D40800AAAF78 /* Assets.xcassets */; };
-		5212E1D32A99D40800AAAF78 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5212E1D22A99D40800AAAF78 /* Preview Assets.xcassets */; };
-		5212E1DE2A99D40800AAAF78 /* ScratchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5212E1DD2A99D40800AAAF78 /* ScratchTests.swift */; };
-		5212E1E82A99D40800AAAF78 /* ScratchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5212E1E72A99D40800AAAF78 /* ScratchUITests.swift */; };
-		5212E1EA2A99D40800AAAF78 /* ScratchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5212E1E92A99D40800AAAF78 /* ScratchUITestsLaunchTests.swift */; };
+		5212E1F92A99D4F600AAAF78 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5212E1F82A99D4F600AAAF78 /* View.swift */; };
+		5212E1FB2A99D59700AAAF78 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5212E1FA2A99D59700AAAF78 /* App.swift */; };
+		5212E21D2A9A017100AAAF78 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5212E21C2A9A017100AAAF78 /* Info.plist */; };
+		5234306A2A9B70D200FC6BFE /* HotKey in Frameworks */ = {isa = PBXBuildFile; productRef = 523430692A9B70D200FC6BFE /* HotKey */; };
+		529B52ED2A9B50790091F2E6 /* MenuBarExtraAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 529B52EC2A9B50790091F2E6 /* MenuBarExtraAccess */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,16 +34,14 @@
 
 /* Begin PBXFileReference section */
 		5212E1C82A99D40700AAAF78 /* Scratch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scratch.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5212E1CB2A99D40700AAAF78 /* ScratchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchApp.swift; sourceTree = "<group>"; };
-		5212E1CD2A99D40700AAAF78 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5212E1CF2A99D40800AAAF78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5212E1D22A99D40800AAAF78 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5212E1D42A99D40800AAAF78 /* Scratch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Scratch.entitlements; sourceTree = "<group>"; };
 		5212E1D92A99D40800AAAF78 /* ScratchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScratchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5212E1DD2A99D40800AAAF78 /* ScratchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchTests.swift; sourceTree = "<group>"; };
 		5212E1E32A99D40800AAAF78 /* ScratchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScratchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5212E1E72A99D40800AAAF78 /* ScratchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchUITests.swift; sourceTree = "<group>"; };
-		5212E1E92A99D40800AAAF78 /* ScratchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5212E1F82A99D4F600AAAF78 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		5212E1FA2A99D59700AAAF78 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		5212E1FC2A99DF7400AAAF78 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5212E21C2A9A017100AAAF78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5234306A2A9B70D200FC6BFE /* HotKey in Frameworks */,
+				529B52ED2A9B50790091F2E6 /* MenuBarExtraAccess in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,9 +74,8 @@
 		5212E1BF2A99D40700AAAF78 = {
 			isa = PBXGroup;
 			children = (
+				5212E21C2A9A017100AAAF78 /* Info.plist */,
 				5212E1CA2A99D40700AAAF78 /* Scratch */,
-				5212E1DC2A99D40800AAAF78 /* ScratchTests */,
-				5212E1E62A99D40800AAAF78 /* ScratchUITests */,
 				5212E1C92A99D40700AAAF78 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,38 +93,13 @@
 		5212E1CA2A99D40700AAAF78 /* Scratch */ = {
 			isa = PBXGroup;
 			children = (
-				5212E1CB2A99D40700AAAF78 /* ScratchApp.swift */,
-				5212E1CD2A99D40700AAAF78 /* ContentView.swift */,
 				5212E1CF2A99D40800AAAF78 /* Assets.xcassets */,
 				5212E1D42A99D40800AAAF78 /* Scratch.entitlements */,
-				5212E1D12A99D40800AAAF78 /* Preview Content */,
+				5212E1F82A99D4F600AAAF78 /* View.swift */,
+				5212E1FA2A99D59700AAAF78 /* App.swift */,
+				5212E1FC2A99DF7400AAAF78 /* README.md */,
 			);
 			path = Scratch;
-			sourceTree = "<group>";
-		};
-		5212E1D12A99D40800AAAF78 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				5212E1D22A99D40800AAAF78 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		5212E1DC2A99D40800AAAF78 /* ScratchTests */ = {
-			isa = PBXGroup;
-			children = (
-				5212E1DD2A99D40800AAAF78 /* ScratchTests.swift */,
-			);
-			path = ScratchTests;
-			sourceTree = "<group>";
-		};
-		5212E1E62A99D40800AAAF78 /* ScratchUITests */ = {
-			isa = PBXGroup;
-			children = (
-				5212E1E72A99D40800AAAF78 /* ScratchUITests.swift */,
-				5212E1E92A99D40800AAAF78 /* ScratchUITestsLaunchTests.swift */,
-			);
-			path = ScratchUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +118,10 @@
 			dependencies = (
 			);
 			name = Scratch;
+			packageProductDependencies = (
+				529B52EC2A9B50790091F2E6 /* MenuBarExtraAccess */,
+				523430692A9B70D200FC6BFE /* HotKey */,
+			);
 			productName = Scratch;
 			productReference = 5212E1C82A99D40700AAAF78 /* Scratch.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +194,10 @@
 				Base,
 			);
 			mainGroup = 5212E1BF2A99D40700AAAF78;
+			packageReferences = (
+				529B52EB2A9B50790091F2E6 /* XCRemoteSwiftPackageReference "MenuBarExtraAccess" */,
+				523430682A9B70D200FC6BFE /* XCRemoteSwiftPackageReference "HotKey" */,
+			);
 			productRefGroup = 5212E1C92A99D40700AAAF78 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +214,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5212E1D32A99D40800AAAF78 /* Preview Assets.xcassets in Resources */,
+				5212E21D2A9A017100AAAF78 /* Info.plist in Resources */,
 				5212E1D02A99D40800AAAF78 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +240,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5212E1CE2A99D40700AAAF78 /* ContentView.swift in Sources */,
-				5212E1CC2A99D40700AAAF78 /* ScratchApp.swift in Sources */,
+				5212E1F92A99D4F600AAAF78 /* View.swift in Sources */,
+				5212E1FB2A99D59700AAAF78 /* App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +249,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5212E1DE2A99D40800AAAF78 /* ScratchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +256,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5212E1E82A99D40800AAAF78 /* ScratchUITests.swift in Sources */,
-				5212E1EA2A99D40800AAAF78 /* ScratchUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +329,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Scratch (Debug)";
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -404,6 +383,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = Scratch;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -415,14 +395,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = Scratch/Scratch.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Scratch/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Scratch;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UILaunchStoryboardName = App;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -440,14 +426,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = Scratch/Scratch.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Scratch/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Scratch;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UILaunchStoryboardName = App;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -568,6 +560,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		523430682A9B70D200FC6BFE /* XCRemoteSwiftPackageReference "HotKey" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/soffes/HotKey";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		529B52EB2A9B50790091F2E6 /* XCRemoteSwiftPackageReference "MenuBarExtraAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/orchetect/MenuBarExtraAccess";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		523430692A9B70D200FC6BFE /* HotKey */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 523430682A9B70D200FC6BFE /* XCRemoteSwiftPackageReference "HotKey" */;
+			productName = HotKey;
+		};
+		529B52EC2A9B50790091F2E6 /* MenuBarExtraAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 529B52EB2A9B50790091F2E6 /* XCRemoteSwiftPackageReference "MenuBarExtraAccess" */;
+			productName = MenuBarExtraAccess;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5212E1C02A99D40700AAAF78 /* Project object */;
 }
