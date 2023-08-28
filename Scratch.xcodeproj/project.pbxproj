@@ -40,7 +40,6 @@
 		5212E1E32A99D40800AAAF78 /* ScratchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScratchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5212E1F82A99D4F600AAAF78 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		5212E1FA2A99D59700AAAF78 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
-		5212E1FC2A99DF7400AAAF78 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5212E21C2A9A017100AAAF78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,7 +96,6 @@
 				5212E1D42A99D40800AAAF78 /* Scratch.entitlements */,
 				5212E1F82A99D4F600AAAF78 /* View.swift */,
 				5212E1FA2A99D59700AAAF78 /* App.swift */,
-				5212E1FC2A99DF7400AAAF78 /* README.md */,
 			);
 			path = Scratch;
 			sourceTree = "<group>";
