@@ -5,6 +5,7 @@
 //  Created by Gurjot Sidhu on 26/08/23.
 //
 import SwiftUI
+import AppKit
 
 class ScratchViewModel: ObservableObject {
     @AppStorage("textContent") var textContent: String = ""
@@ -18,32 +19,38 @@ struct ScratchPopoverView: View {
 //    @Binding var isMenuPresented: Bool
     @EnvironmentObject var appState: AppState
     
+    // dark/light mode detection
+    
     var body: some View {
         ZStack {
-            Color.white
+//            Color.white
+            Color("EditorBackgroundColor")
             
             VStack(alignment: .leading, spacing: 8) {
                 // HStack with Icon and Text
                 HStack {
                     Spacer()
                     Image(systemName: "scribble.variable")
+                        .foregroundColor(Color("TextColor"))
                     Text("Keep Scratching")
-                        .foregroundColor(Color.black)
+                        .foregroundColor(Color("TextColor"))
                         .font(.system(.headline, design: .monospaced))
                         .textSelection(.enabled)
                     Spacer()
                 }
                 
                 Divider()
+                    .foregroundColor(Color("TextColor"))
                 
                 // Main Text Box
                 VStack {
                     TextEditor(text: $viewModel.textContent)
                         .font(.system(size: 14))
-                        .foregroundColor(.black)
+                        .foregroundColor(Color("TextColor"))
                         .padding(6)
                 }
-                .background(Color(NSColor.textBackgroundColor))
+//                .background(Color(NSColor.textBackgroundColor))
+                .background(Color("EditorBackgroundColor"))
                 .cornerRadius(8)
                 
                 HStack {
@@ -58,7 +65,7 @@ struct ScratchPopoverView: View {
                         appState.isMenuPresented.toggle()
                     } label: {
                         Text("Open in Window", comment: "Open in window label")
-                            .foregroundColor(Color.black)
+                            .foregroundColor(Color("TextColor"))
                             .frame(maxWidth: .infinity)
                         Text("⌘ O")
                             .foregroundColor(Color.gray)
@@ -75,7 +82,7 @@ struct ScratchPopoverView: View {
                         NSApplication.shared.terminate(self)
                     } label: {
                         Text("Quit", comment: "Quit app label")
-                            .foregroundColor(Color.black)
+                            .foregroundColor(Color("TextColor"))
                         Text("⌘ Q")
                             .foregroundColor(Color.gray)
                     }
@@ -120,12 +127,13 @@ struct WindowView: View {
 
     var body: some View {
         ZStack {
-            Color.white
+            Color("EditorBackgroundColor")
+            
             VStack {
                 TextEditor(text: $viewModel.textContent)
                     .font(.system(size: 14))
                     .padding(10)
-                    .background(Color(NSColor.textBackgroundColor))
+                    .background(Color("EditorBackgroundColor"))
                 
                 Divider()
                 

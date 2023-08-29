@@ -9,12 +9,13 @@ Use it for quick notes, copying multiple items, removing formatting from copied 
 - Works with keyboard shortcuts
   - Open the scratchpad with <kbd>⌘ Esc</kbd>
   - Open the scratchpad in a window with <kbd>⌘ O</kbd>
+- Supports both dark and light mode
 
 ### Installation
 You can build the app directly from source by downloading this repository and opening it in Xcode.
 
 Or –
-1. Download the latest release from the [releases page](https://github.com/gsidhu/Scratch/releases/latest) or click this [direct download link](https://github.com/gsidhu/Scratch/releases/download/v1.0.0/Scratch.v1.0.0.zip)
+1. Download the latest release from the [releases page](https://github.com/gsidhu/Scratch/releases/latest) or click this [direct download link](https://github.com/gsidhu/Scratch/releases/download/v1.1.0/Scratch.v1.1.0.zip)
 2. Unzip the file
 3. Move the app to your Applications folder
 4. Open the app
