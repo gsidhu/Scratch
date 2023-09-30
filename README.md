@@ -3,7 +3,7 @@ A scratchpad for your menu bar.
 
 Use it for quick notes, copying multiple items, removing formatting from copied text, or whatever else!
 
-![Scratch](/Scratch-Screenshot.png)
+<img src="./Scratch-Screenshot.png" width=50% height=50%>
 
 ### Features
 - Quick access from the menu bar
