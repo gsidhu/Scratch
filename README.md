@@ -3,6 +3,8 @@ A scratchpad for your menu bar.
 
 Use it for quick notes, copying multiple items, removing formatting from copied text, or whatever else!
 
+![Scratch](/Scratch-Screenshot.png)
+
 ### Features
 - Quick access from the menu bar
 - Opens the scratchpad in a window for serious note taking
